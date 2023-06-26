@@ -93,6 +93,11 @@ body {
   padding: 16px;
 }
 
+.card__image {
+  border-radius: 10px;
+  background: #2c7dfa;
+}
+
 .card__content {
   display: flex;
   flex-direction: column;
@@ -103,11 +108,15 @@ body {
 .content__title {
   font-weight: bold;
   color: var(--clr-dark-blue);
+  color: var(--dark-navy, #1f314f);
+  text-align: center;
+  font-size: 22px;
 }
 
 .content__description {
   width: 256px;
   color: var(--clr-grayish-blue);
+  letter-spacing: 0.188px;
 }
 
 a,
